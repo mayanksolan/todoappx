@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.new_bucket_button {
+  font-size: 1.5em;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.bucket_style {
+  background-color: skyblue;
+  border: 3px solid skyblue;
+  margin-bottom: 2px;
+  display: inline-block;
+  width: 300px;
+}
+
+.todo_style {
+  border: 3px solid lightcoral;
+  margin-bottom: 1px;
+  display: inline-block;
+  width: 300px;
+}
+
+.todo_item_style {
+  border-bottom: 2px solid lightcoral;
+  padding: 5px;
+}
+
+#add_text_style {
+  display: flex;
+}
+
+.newtodo_style {
+  border: 2px solid lightcoral;
+  border-style: none;
+  margin-top: 1px;
+  padding: 5px;
+  flex: 1;
+  text-align: center;
+  outline: none;
+}
+
+.checked_style {
+  border: 3px solid lightseagreen;
+  display: inline-block;
+  width: 300px;
+}
+
+.checked_item_style {
+  border-bottom: 2px solid lightseagreen;
+  padding: 5px;
+}
